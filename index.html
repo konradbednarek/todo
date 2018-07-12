@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<title>To Do App</title>
+	<meta name="description" content="OPIS - MAKSYMALNIE 50 znaków">
+	<meta name="keywords" content="SŁOWA KLUCZOWE">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="dcterms.description" lang="pl" content="Super hiper wpis na temat czegokolwiek">
+	<meta name="dcterms.subject" lang="pl" content="Bardzo ważne słowa kluczowe; rozdzielone średnikiem">
+
+	<!-- CSS, RESPONSIVE, FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<ul class="card-list">
+
+		<li class="card">
+			<div class="form-container">
+				<h1 class="form__title"><a href="./">To Do App</a></h1>
+				<label for="task" class="label">Nazwa zadania:</label>
+				<input type="text" class="form__input" placeholder="Nazwa zadania" maxlength="30" id="task">
+				<label for="task-desc" class="label">Opis zadania:</label>
+				<textarea class="form__input form__textarea" placeholder="Opis zadania" maxlength="70" id="task-desc"></textarea>
+			</div>
+			<div class="submit-container">
+				<button class="form__button hvr-wobble-top" type="button">DODAJ ZADANIE
+					<svg class="form-icon" viewBox="0 0 512 512" aria-hidden="true">
+						<title>Plus</title>
+						<path d="M496 192h-176v-176c0-8.836-7.164-16-16-16h-96c-8.836 0-16 7.164-16 16v176h-176c-8.836 0-16 7.164-16 16v96c0 8.836 7.164 16 16 16h176v176c0 8.836 7.164 16 16 16h96c8.836 0 16-7.164 16-16v-176h176c8.836 0 16-7.164 16-16v-96c0-8.836-7.164-16-16-16z"></path>
+					</svg>
+				</button>
+			</div>
+		</li>
+
+	</ul>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
